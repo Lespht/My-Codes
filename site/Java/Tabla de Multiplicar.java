@@ -1,5 +1,5 @@
 import java.util.*;
-public class Jose {
+public class Tabla de Multiplicar {
     public static void main(String args[]) {
     Scanner sc = new Scanner (System.in);
     int n;
