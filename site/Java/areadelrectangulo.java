@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class MyClass {
+public class areadelrectangulo{
     public static void main(String args[]) {
 
         int base,altura, area;

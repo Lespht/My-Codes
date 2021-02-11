@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class MyClass {
+public class PromedioAR {
     public static void main(String args[]) {
 
         int base,altura, area;

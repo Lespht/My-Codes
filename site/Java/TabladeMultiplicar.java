@@ -1,5 +1,5 @@
-import java.util.*;
-public class TabladeMultiplicar{
+import java.util.Scanner;
+public class tablademultiplicar{
     public static void main(String args[]) {
     Scanner sc = new Scanner (System.in);
     int n;
