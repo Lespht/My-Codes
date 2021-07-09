@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang= "en">
+<head> 
+    <meta charset="utf-8">
+    <title>Lecture 14</title>
+</head>
+    <style>
+        p.big {
+            font-size: 20px;
+        }
+        div.small {
+            font-size: 10px;
+        }
+        article > p {
+            color: green;
+        }
+        .colored p {
+            color: blue;
+        }
+        article > .colored {
+            color: blue;
+        }
+        .highlight {
+            background-color: lightgreen;
+        }
+        p.highlight {
+                font-style: italic;
+        }
+        .highlight.mainpoint {
+            color: red;
+            background-color: gray;
+        }
+        section > article {
+            color: green;
+            font-size: 24px;
+        }
+        section > h2 {
+            color: green;
+        }
+        section li {
+            color: green;
+        }
+    </style>
+    <body>
+        <h1 class="highlight">Lecture 14</h1>
+        <p>Normal p tag</p>
+        <p class="highlight">P tag with highlight class</p>
+        <div class="mainpoint highlight">The main point of the article. Have the mainpoint and highlight class.</div>
+        <p class="big">Testing css code to made all the p section a 20px font font-size</p>
+        <br>
+        <div class="big">Dont work with div tag if not have his own stlye css propertie</div>
+        <br>   
+        <div class="small">In this case the div class have his own stlye and its works.</div>
+        <br>
+        <article>
+            <p> This text is green because the p tag is inside the article tag. That have the style atribute</p>
+        </article>
+        <p>Dont have any costume color.</p>
+        <article>
+            <div>
+                <p>This have color</p>
+            </div>
+        </article>
+        <h1>Child Selector</h1>
+        <section>
+            <h2>Subheading 1</h2>
+            <div>
+                <article>ARTICLE which inside DIV wich is inside SECTION</article>
+            </div>
+        </section>
+        <section>
+            <article>ARTICLE as a direct child of the SECTION element.</article>
+        </section>
+        <h2>Subheading 2</h2>
+        <h1>Descendant Selector</h1>
+        <section>
+            Table of contents:
+            <ul>
+                <li>Article 1</li>
+                <li>Article 2</li>
+                <li>Article 3</li>
+            </ul>
+        </section>
+        <article>
+            Shopping List:
+            <ul>
+                <li>Cookies</li>
+                <li>Cake</li>
+                <li>Pie</li>
+            </ul>
+        </article>
+    </body>
+</html>
