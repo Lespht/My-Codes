@@ -15,23 +15,23 @@ public class Queesmayorque{
 
         if(num1 > num2){
 
-            System.out.println("El número " + num1 + "es mayor que el numero " + num2);
+            System.out.println("El número " + num1 + " es mayor que el numero " + num2);
         }else{
 
-            System.out.println("El número " + num2 + "es mayor que el número " + num1);
+            System.out.println("El número " + num2 + " es mayor que el número " + num1);
 
         if(num2 > num3){
 
-            System.out.println("El número " + num2 + "es mayor que el numero " + num3);
+            System.out.println("El número " + num2 + " es mayor que el numero " + num3);
         }else{
 
-            System.out.println("El número " + num3 + "es mayor que el número " + num2);
+            System.out.println("El número " + num3 + " es mayor que el número " + num2);
         if(num1 > num3){
 
-            System.out.println("El número " + num1 + "es mayor que el numero " + num3);
+            System.out.println("El número " + num1 + " es mayor que el numero " + num3);
         }else{
 
-            System.out.println("El número " + num3 + "es mayor que el número " + num1);
+            System.out.println("El número " + num3 + " es mayor que el número " + num1);
             v1.close();
         }
         }
