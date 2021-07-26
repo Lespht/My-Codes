@@ -2,8 +2,6 @@ import java.util.Scanner;
 public class PromedioAR {
     public static void main(String args[]) {
 
-        int base,altura, area;
-
         Scanner d1 = new Scanner(System.in);
 
         double n1,n2,n3,prom;
@@ -26,7 +24,6 @@ public class PromedioAR {
         if(prom < 6)
 
             System.out.println("Reprobado");
-
-
+            d1.close();
       }
 }

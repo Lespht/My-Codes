@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class queesmayorque{
+public class Queesmayorque{
     public static void main(String args[]) {
 
         Scanner v1 = new Scanner(System.in);
@@ -32,6 +32,7 @@ public class queesmayorque{
         }else{
 
             System.out.println("El número " + num3 + "es mayor que el número " + num1);
+            v1.close();
         }
         }
         }

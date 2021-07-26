@@ -15,6 +15,8 @@ public class areadelrectangulo{
         area = base * altura;
 
         System.out.println("El valor del area es :" + area);
+        d1.close();
 
       }
+      
 }

@@ -2,8 +2,6 @@ import java.util.Scanner;
 public class PromedioMensual{
     public static void main(String args[]) {
 
-        int base,altura, area;
-
         Scanner d1 = new Scanner(System.in);
 
         double n1,n2,n3,prom;
@@ -20,6 +18,7 @@ public class PromedioMensual{
         prom = ((n1+n2+n3)/3);
 
         System.out.println("El promedio mensual es : "+ prom);
+        d1.close();
 
       }
 }
